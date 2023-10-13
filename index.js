@@ -1,4 +1,4 @@
-/* 01)
+01)
 let dia = true; //em caso de "false" a mensagem é: De noite
 if (dia) {
   console.log("Claro");
@@ -6,25 +6,25 @@ if (dia) {
   console.log("De noite");
 } */
 
-/* 02)
+02)
 for (let n = 2; n <= 20; n += 2) {
   console.log(n);
 } */
 
-/* 03)
+03)
 function mostrarFrase() {
   console.log("Sou aluna do Vai na Web!");
 }
 mostrarFrase(); */
 
-/* 04)
+04)
 function mostrarNome(nome) {
   console.log("Meu nome é " + nome);
 }
 mostrarNome("Aline");
 */
 
-/*05
+05
 function minhasInformacoes(nome, idade, estiloMusical) {
   console.log("nome: " + nome);
   console.log("idade: " + idade);
@@ -33,38 +33,35 @@ function minhasInformacoes(nome, idade, estiloMusical) {
 minhasInformacoes("Aline", "21", "pop");
 */
 
-/*06)
+06)
 function meusGostos(filme, musica) {
   console.log("filme: " + filme);
   console.log("musica: " + musica);
 }
 meusGostos("Scream", "After Hours-The Weekend");*/
 
-/* 07)
+07)
 function numeroTriplo(n) {
   return n * 3;
 }
 let resultado = numeroTriplo(9);
 console.log("o resultado do triplo de 9 é " + resultado);*/
 
-/* 08) Não consegui responder essa questão, até vi formas de fazer na internet
-porém também não compreendi o desenvolvimento dela*/
-
-/*09)
+09)
 let itens = ["maquiagem", "roupa", "sapato", "perfume", "shampoo"];
 console.log(itens);*/
 
-/*10)
+10)
 let paises = ["Brasil", "Canada", "Eua", "Irlanda"];
 paises.unshift("Dinamarca");
 console.log(paises);*/
 
-/*11)
+11)
 let bebidas = ["coca-cola", "suco", "agua", "vinho"];
 bebidas.pop();
 console.log(bebidas);*/
 
-/*12)
+12)
 let comidas = ["strogonoff", "lasanha", "macarrão", "churrasco"];
 comidas.push("hamburguer");
 comidas.push("cuzcuz");
@@ -73,12 +70,12 @@ console.log(comidas);
 comidas.shift();
 console.log(comidas);*/
 
-/*14)
+14)
 let numbers = [3, 7, 9, 4, 8, 1, 5, 6, 2];
 numbers.sort();
 console.log(numbers);*/
 
-/*15)
+15)
 let propriedades = {
   nome: "andre",
   idade: 26,
@@ -93,7 +90,7 @@ console.log(propriedades)
 delete propriedades.idade;
 console.log(propriedades)*/
 
-/*19)
+19)
 let cadastro = [
   {
     nome: "Jorginho",
@@ -126,7 +123,7 @@ let cadastro = [
     amigos: ["andre", "carlos", "aline", "alberto"]
   }
 ];*/
-/*20 - Mostre no console o nome de um amigo de cada lista.
+20 - Mostre no console o nome de um amigo de cada lista.
 
 console.log(cadastro[0].amigos[0]);
 console.log(cadastro[1].amigos[1]);
